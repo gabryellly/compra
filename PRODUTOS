@@ -1,0 +1,19 @@
+export interface Produtos {
+
+    doce: number;
+    celular: number;
+    livro: number;
+
+
+constructor (doce: number, celula: number, livro: number){
+    this.doce = Number
+    this.celular = Number
+    this.livro = Number
+
+    
+const meusProdutos = new (`doce, celular, livro`)
+console.log(meusProdutos)
+ }
+}
+  
+    
