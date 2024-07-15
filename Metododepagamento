@@ -1,0 +1,26 @@
+export interface MetodoPagamento {
+    dinheiro: string;
+    pix: string;
+    cartao: string;
+
+constructor (dinheiro: string, pix: string, cartao: string){
+    this.dinheiro = String
+    this.pix = String
+    this.cartao = String
+ }
+}
+
+
+    (): void {
+        console.log('qual opcao voce deseja pagar?')
+        console.log('voce pagou com o {this.pagamento')
+    
+        return new PagarDinheiro(1)
+        return new PagarPix(2)
+        return new PagarCartao(3)
+     }
+
+
+
+    (): void {
+        console.log('voce pagou com o {this.pagamento')}
